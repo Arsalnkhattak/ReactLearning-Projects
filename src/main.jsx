@@ -4,6 +4,9 @@ import './index.css'
 import App from './App.jsx'
 import ColorChanger from './components/colorChanger.jsx'
 import Passgenerator from './components/passgenerator.jsx'
+import CustomInputs from './components/inputs.jsx'
+import CurrencyApp from './components/currencyapp.jsx'
+import HandleForms from './components/handleForms.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,7 +17,13 @@ createRoot(document.getElementById('root')).render(
 
     {/* <ColorChanger/> */}
 
-    <Passgenerator />
+    {/* <Passgenerator /> */}
+
+    {/* <CustomInputs/> */}
+
+    {/* <CurrencyApp/> */}
+
+    <HandleForms/>
 
   </StrictMode>,
 )

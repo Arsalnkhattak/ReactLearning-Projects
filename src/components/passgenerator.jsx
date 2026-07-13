@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
+import '../index.css'
 
 export default function Passgenerator() {
   const [password, setPassword] = useState("");
